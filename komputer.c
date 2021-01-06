@@ -59,7 +59,6 @@ int czy_wygrana(char plansza[WYMIARY][WYMIARY]){
 }
 
 int oceniajaca(int glebokosc, char plansza[WYMIARY][WYMIARY], char znak){
-    int tab_random[4][4];
     int aktualna;
     char znak_przeciwnika;
     if(znak == znaki.komputera){

@@ -2,9 +2,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdbool.h>
-//#include "kolko.h"
-
-#define WYMIARY 4
+#include "kolko.h"
 
 bool sprawdzenie(char plansza[WYMIARY][WYMIARY], int pion, int poziom)
 {

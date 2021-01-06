@@ -3,12 +3,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-//#include "kolko.h"
+#include "kolko.h"
 #include "komputer.c"
 #include "gracz.c"
-
-#define WYMIARY 4
-#define GLEBIA 6
 
 int zajete_pola = 0;
 

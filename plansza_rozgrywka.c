@@ -4,10 +4,6 @@
 #include <stdbool.h>
 
 #include "kolko.h"
-#include "komputer.c"
-#include "gracz.c"
-
-int zajete_pola = 0;
 
 void wyczysc(char plansza[WYMIARY][WYMIARY])
 {

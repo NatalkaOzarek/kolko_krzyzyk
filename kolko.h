@@ -7,6 +7,17 @@
 #define GRACZ -1
 #define GLEBIA 6
 
+int zajete_pola;
+
+typedef struct znak
+{
+    char gracza;
+    char komputera;
+} def_znaki;
+
+int wiersz, kolumna;
+def_znaki znaki;
+
 bool ponowna_gra();
 bool nastepna_gra();
 bool sprawdzenie(char plansza[WYMIARY][WYMIARY], int pion, int poziom);

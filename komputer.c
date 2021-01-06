@@ -2,22 +2,8 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdbool.h>
-//#include "kolko.h"
 
-#define WYMIARY 4
-#define REMIS 0
-#define KOMPUTER 1
-#define GRACZ -1
-#define GLEBIA 6
-
-typedef struct znak
-{
-    char gracza;
-    char komputera;
-} def_znaki;
-
-int wiersz = 1, kolumna = 1;
-def_znaki znaki;
+#include "kolko.h"
 
 int rozpoznaj_wygrana(char znak){
     if(znak == znaki.komputera){

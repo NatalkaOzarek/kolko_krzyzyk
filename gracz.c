@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
 #include "kolko.h"
 
 bool sprawdzenie(char plansza[WYMIARY][WYMIARY], int pion, int poziom)

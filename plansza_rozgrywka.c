@@ -59,20 +59,23 @@ void sprawdz_wygranie(int gra, int zajete_pola){
     }
 }
 
-bool nastepna_gra(){
-    printf("Czy chcesz grać ponownie? Naciśnij t jeśli tak i n jeśli nie");
-    char znacznik;
-    scanf("%c", &znacznik);
-    printf("DUPA %c", znacznik);
-    if(znacznik == 't'){
-        return true;
-    }
-    else if(znacznik != 't'){
-        return false;
-    }
-}
+// bool nastepna_gra(){
+//     printf("Czy chcesz grać ponownie? Naciśnij t jeśli tak i n jeśli nie");
+//     char znacznik;
+//     scanf("%c", &znacznik);
+//     printf("%c", znacznik);
+//     if(znacznik == 't'){
+//         return true;
+//     }
+//     else if(znacznik != 't'){
+//         return false;
+//     }
+// }
 
 int main(){
+    zajete_pola = 0;
+    wiersz = 1;
+    kolumna = 1;
     char znacznik = 1;
     int zajete_pola = 0;
     int gra = 0;

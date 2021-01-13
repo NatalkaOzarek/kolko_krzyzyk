@@ -4,7 +4,7 @@
 #include <stdbool.h>
 
 #include "kolko.h"
-
+k;
 bool sprawdzenie(char plansza[WYMIARY][WYMIARY], int pion, int poziom)
 {
     if(pion > 5 || pion < 0 || poziom > 5 || pion < 0){
